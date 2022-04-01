@@ -1,0 +1,133 @@
+body{font-family:Book Antiqua;
+color:white;}
+
+nav{
+	width:900px;
+	margin: 0 auto;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:50px;
+}
+li{
+	float: left;
+}
+
+.menu ul li a {
+color:white;
+display:block;
+height:50px;
+padding:0 20px;
+text-decoration:none;
+line-height:50px;
+}
+
+.menu ul li a:hover{
+background:white;
+color:black;
+}
+figcaption{
+	color:white;
+	text-decoration:none;
+}
+
+a { 
+    text-decoration: none; 
+   } 
+img {
+  max-width: 100%;
+}
+
+.wall{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.img-list li {
+  display: block;
+  list-style: none;
+}
+
+.img-list img {
+  width: 200px;
+  max-width: 100%;
+  height: 320px;
+}
+
+
+.img-list {
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:100px;
+	color:#c1c1c1;
+}
+
+.img-list figure{
+	width:170px;
+	text-decoration:none;
+}
+
+
+
+h1{
+	color:#c1c1c1;
+}
+
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px 0;
+  display: none;
+  overflow-y: auto;
+}
+
+.menu .on a, a:hover {
+    background:white;
+	color:black;
+}
+
+.overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+}
+
+.lightbox figure {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  max-width: 800px;
+}
+
+
+.next, .prev {
+  display: block;
+  position:center;
+  color:#FFFF;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}

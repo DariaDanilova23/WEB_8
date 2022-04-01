@@ -1,0 +1,70 @@
+body{font-family:Book Antiqua; 
+color:white;}
+
+nav{
+	width:900px;
+	margin: 0 auto;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:50px;
+}
+
+li{
+	float: left;
+}
+
+ul li a {
+color:white;
+display:block;
+height:50px;
+padding:0 20px;
+text-decoration:none;
+line-height:50px;
+}
+
+ul li a:hover{
+background:white;
+color:black;
+}
+.on a, a:hover {
+    background:white;
+	color:black;
+}
+
+.info{
+	color:#c1c1c1;
+	margin-left:200px;
+	margin-right:200px;
+	text-align:right;
+}
+
+.container {
+	width:1000px;
+	position:block;
+	border:1px;
+	border-color:white;
+}
+
+.link{
+	color:black;
+	margin-left:40px;
+	text-decoration:none;
+	background-color:#c1c1c1;
+	border-radius:15px;
+	padding:10px;
+	text-align:center;
+}
+
+.linc2{
+display:none;
+position:relative;
+float:right;
+} 
+.linc2 img{
+width:180px;
+height:250px;
+}

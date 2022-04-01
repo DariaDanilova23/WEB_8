@@ -1,0 +1,41 @@
+body{font-family:Book Antiqua; 
+color:white;}
+
+nav{
+	width:900px;
+	margin: 0 auto;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:50px;
+}
+
+li{
+	float: left;
+}
+
+ul li a {
+color:white;
+display:block;
+height:50px;
+padding:0 20px;
+text-decoration:none;
+line-height:50px;
+}
+
+ul li a:hover{
+background:white;
+color:black;
+}
+
+.on a, a:hover {
+    background:white;
+	color:black;
+}
+
+h3{
+	margin-left:200px;
+}

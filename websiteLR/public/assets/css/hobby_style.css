@@ -1,0 +1,84 @@
+body{font-family:Book Antiqua; 
+color:white;}
+
+nav{
+	width:900px;
+	margin: 0 auto;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:50px;
+}
+ol{
+	
+	list-style:none;
+}
+
+nav li{
+	float: left;
+}
+
+ul li a {
+color:white;
+display:block;
+height:50px;
+padding:0 20px;
+text-decoration:none;
+line-height:50px;
+}
+
+ul li a:hover{
+background:white;
+color:black;
+}
+.on a, a:hover {
+    background:white;
+	color:black;
+}
+
+.meInfo a {
+color:white;
+text-decoration:none;
+}
+
+
+.meInfo li{
+	list-style-type:none;
+	text-align:left;
+}
+
+
+.meInfo li a{
+background:white;
+color:black;
+font-size:18px;
+display:block;
+height:20px;
+padding:0 10px;
+text-align:left;
+text-decoration:none;
+line-height:20px;
+}
+
+
+.meInfo{
+	margin-left:200px;
+	margin-right:200px;
+	color:#c1c1c1;
+}
+.list li{
+	list-style-type:none;
+}
+
+.list{
+	display:flex;
+	justify-content:center;
+}
+.sub-menu{
+	overflow:hidden;
+	opacity:0;
+	height:0;
+}
